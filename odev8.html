@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Tablo  ile İlgili Bilgiler">
+        <meta name="keywords" content="Tablo oluşturma,biçimlendirme  ve Hücre birleştirme">
+    </head>
+    <body>
+        <!--Tablo Oluşturma Komutları-->
+        <h1>Tablo Özellikleri</h1>
+        <table border="2">
+            <tr><td>Ad Soyad:</td><td>Mustafa Vural</td></tr>
+            <tr><td>Doğum Yeri:</td><td>Konya</td></tr>
+        </table>
+
+        <!--Tablo Biçimlendirme Etiketleri-->
+        <br>
+        <table border="2">
+            <caption style="font-size: 18px;">Ülke Nüfusları</caption>
+            <thead>
+                <tr><th>Ülke</th><th>Nüfus</th></tr>           <!--Giriş -->
+            </thead>
+            <tbody>
+                <tr><td>Türkiye</td><td>82</td></tr> 
+                <tr><td>Yunanistan</td><td>12</td></tr>               
+                <tr><td>Bulgaristan</td><td>10</td></tr>       <!--Gelişme-->
+            </tbody>
+            <tfoot>
+                <tr><td>Toplam Nüfus:</td><td>104</td></tr>    <!--Sonuç-->
+            </tfoot>
+        </table>
+
+        <!--Hücre Birleştirme-->
+        <br>
+        <table border="2">
+            <caption style="font-size: 13px;">Hücre Birleştirme</caption>
+            <tr><td colspan="2">Galatasaray:1905</td></tr>
+            <tr><th rowspan="2">Fenerbahçe</th><th>1907</th></tr>
+        </table>
+
+    </body>
+</html>
